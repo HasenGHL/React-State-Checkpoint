@@ -1,0 +1,38 @@
+.person-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: 100px;
+}
+
+span{
+  font-weight: 500;
+}
+
+.btn{
+  padding: 7px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: rgb(54, 111, 255);
+  color: white;
+}
